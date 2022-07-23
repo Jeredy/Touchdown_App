@@ -13,6 +13,14 @@
 		CE4AB8A1288C3699004F23AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4AB88F288C3696004F23AC /* ContentView.swift */; };
 		CE4AB8A2288C3699004F23AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4AB890288C3699004F23AC /* Assets.xcassets */; };
 		CE4AB8A3288C3699004F23AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4AB890288C3699004F23AC /* Assets.xcassets */; };
+		CE4AB8B0288C37F6004F23AC /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = CE4AB8AC288C37F5004F23AC /* player.json */; };
+		CE4AB8B1288C37F6004F23AC /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = CE4AB8AC288C37F5004F23AC /* player.json */; };
+		CE4AB8B2288C37F6004F23AC /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = CE4AB8AD288C37F5004F23AC /* product.json */; };
+		CE4AB8B3288C37F6004F23AC /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = CE4AB8AD288C37F5004F23AC /* product.json */; };
+		CE4AB8B4288C37F6004F23AC /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = CE4AB8AE288C37F5004F23AC /* brand.json */; };
+		CE4AB8B5288C37F6004F23AC /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = CE4AB8AE288C37F5004F23AC /* brand.json */; };
+		CE4AB8B6288C37F6004F23AC /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = CE4AB8AF288C37F5004F23AC /* category.json */; };
+		CE4AB8B7288C37F6004F23AC /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = CE4AB8AF288C37F5004F23AC /* category.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,10 @@
 		CE4AB895288C3699004F23AC /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4AB89B288C3699004F23AC /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4AB89D288C3699004F23AC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CE4AB8AC288C37F5004F23AC /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
+		CE4AB8AD288C37F5004F23AC /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		CE4AB8AE288C37F5004F23AC /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		CE4AB8AF288C37F5004F23AC /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		CE4AB88D288C3696004F23AC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				CE4AB8B8288C3832004F23AC /* Data */,
 				CE4AB88E288C3696004F23AC /* TouchdownApp.swift */,
 				CE4AB88F288C3696004F23AC /* ContentView.swift */,
 				CE4AB890288C3699004F23AC /* Assets.xcassets */,
@@ -76,6 +89,17 @@
 				CE4AB89D288C3699004F23AC /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		CE4AB8B8288C3832004F23AC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CE4AB8AE288C37F5004F23AC /* brand.json */,
+				CE4AB8AF288C37F5004F23AC /* category.json */,
+				CE4AB8AC288C37F5004F23AC /* player.json */,
+				CE4AB8AD288C37F5004F23AC /* product.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +181,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4AB8B0288C37F6004F23AC /* player.json in Resources */,
+				CE4AB8B4288C37F6004F23AC /* brand.json in Resources */,
+				CE4AB8B6288C37F6004F23AC /* category.json in Resources */,
 				CE4AB8A2288C3699004F23AC /* Assets.xcassets in Resources */,
+				CE4AB8B2288C37F6004F23AC /* product.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +193,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4AB8B1288C37F6004F23AC /* player.json in Resources */,
+				CE4AB8B5288C37F6004F23AC /* brand.json in Resources */,
+				CE4AB8B7288C37F6004F23AC /* category.json in Resources */,
 				CE4AB8A3288C3699004F23AC /* Assets.xcassets in Resources */,
+				CE4AB8B3288C37F6004F23AC /* product.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
